@@ -83,13 +83,13 @@ const Login = () => {
             </Button>
           </form>
           
-          <div className="mt-6 p-4 bg-muted/50 rounded-lg">
+          {/* <div className="mt-6 p-4 bg-muted/50 rounded-lg">
             <p className="text-sm text-muted-foreground text-center">
               Demo credentials:<br />
               Email: admin@portfolio.dev<br />
               Password: admin123
             </p>
-          </div>
+          </div> */}
         </CardContent>
       </Card>
     </div>
