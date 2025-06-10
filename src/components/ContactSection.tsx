@@ -63,7 +63,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-muted-foreground">+250780670284</p>
+                    <p className="text-muted-foreground">(+250) 780670284</p>
                   </div>
                 </div>
                 

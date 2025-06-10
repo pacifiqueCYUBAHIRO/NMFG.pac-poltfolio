@@ -5,8 +5,8 @@ const ExperienceSection = () => {
   const experiences = [
     {
       title: "Senior Full-Stack Developer",
-      company: "TechCorp Inc.",
-      period: "2022 - Present",
+      company: "Rwanda Asociation In Technology and Inovation (RATI)",
+      period: "2023 - Present",
       description: "Lead development of scalable web applications serving 100k+ users. Mentored junior developers and implemented CI/CD pipelines.",
       achievements: [
         "Reduced load times by 40% through optimization",
@@ -16,8 +16,8 @@ const ExperienceSection = () => {
     },
     {
       title: "Frontend Developer",
-      company: "StartupXYZ",
-      period: "2020 - 2022",
+      company: "Andela Rwanda",
+      period: "2022 - 2023",
       description: "Developed responsive web applications using React and modern frontend technologies. Collaborated with designers to create pixel-perfect UIs.",
       achievements: [
         "Built 15+ responsive web applications",
@@ -27,8 +27,8 @@ const ExperienceSection = () => {
     },
     {
       title: "Junior Developer",
-      company: "WebSolutions Ltd.",
-      period: "2019 - 2020",
+      company: "Techsroutine Ltd.",
+      period: "2020 - 2021",
       description: "Started my professional journey working on various client projects and learning industry best practices.",
       achievements: [
         "Completed 20+ client projects",

@@ -1,24 +1,35 @@
+import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+
+
+  const socialLinks = [
+    { name: "GitHub", url: "https://github.com/pacifiqueCYUBAHIRO", icon: <FaGithub /> },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/pacifique-cyubahiro-39a118248/", icon: <FaLinkedin /> },
+    { name: "Twitter", url: "https://x.com/paccymaker", icon: <FaTwitter /> },
+    { name: "Instagram", url: "https://www.instagram.com/paccy_nmfg_/", icon: <FaInstagram /> }
+  ];
 
   return (
     <footer className="bg-background border-t border-border py-12">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <div className="text-2xl font-bold text-gradient mb-4">DevPortfolio</div>
+            <div className="text-2xl font-bold text-gradient mb-4">NMFG.PAC</div>
             <p className="text-muted-foreground mb-6 max-w-md">
               Full-stack developer creating beautiful, functional, and user-centered digital experiences.
             </p>
             <div className="flex space-x-4">
-              {["GitHub", "LinkedIn", "Twitter", "Instagram"].map((social) => (
-                <a
-                  key={social}
-                  href="#"
+              {socialLinks.map(({ name, url, icon }) => (
+                <a 
+                  key={name} 
+                  href={url} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   className="w-10 h-10 bg-muted rounded-lg flex items-center justify-center hover:bg-portfolio-primary hover:text-white transition-colors duration-200"
                 >
-                  {social.slice(0, 2)}
+                  {icon}
                 </a>
               ))}
             </div>

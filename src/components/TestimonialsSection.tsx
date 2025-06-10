@@ -7,19 +7,19 @@ const TestimonialsSection = () => {
       name: "Sarah K.",
       role: "CEO, TechStartup",
       content: "Pacifique delivered an exceptional web application that exceeded our expectations. The attention to detail and technical expertise was outstanding.",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face"
+      image: "https://images.unsplash.com/photo-1664575601786-b00156752b61?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGJ1c2luZXNzfGVufDB8fDB8fHww"
     },
     {
       name: "Mike R.",
       role: "Product Manager, InnovaCorp",
       content: "Working with Pacifique was a game-changer for our project. Fast delivery, clean code, and excellent communication throughout the process.",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
+      image: "https://images.unsplash.com/photo-1664575600796-ffa828c5cb6e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGJ1c2luZXNzfGVufDB8fDB8fHww"
     },
     {
-      name: "Emily Rodriguez",
+      name: "Emily UMUTESI",
       role: "Founder, Creative Agency",
       content: "Pacifique transformed our design concepts into a beautiful, functional website. The collaboration was seamless and the results were perfect.",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face"
+      image: "https://plus.unsplash.com/premium_photo-1664298350269-dcc183a64603?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJsYWNrJTIwcGVvcGxlJTIwYnVzaW5lc3N8ZW58MHx8MHx8fDA%3D"
     }
   ];
 

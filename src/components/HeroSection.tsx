@@ -51,10 +51,10 @@ const HeroSection = () => {
               <div className="absolute -bottom-4 -right-4 w-64 h-64 bg-portfolio-secondary/20 rounded-full blur-xl"></div>
               
               {/* Profile picture container */}
-              <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-portfolio-primary/30 shadow-2xl bg-gradient-to-br from-portfolio-primary/10 to-portfolio-secondary/10 p-2">
+              <div className="relative w-80 h-80 rounded-full overflow-hidden border-8 border-portfolio-primary/30 shadow-2xl bg-gradient-to-br from-portfolio-primary/10 to-portfolio-secondary/10 p-2">
                 <div className="w-full h-full rounded-full overflow-hidden border-2 border-white/50">
                   <img 
-                    src="/lovable-uploads/1f404858-a324-4b22-89a8-86f39b790b68.png" 
+                    src="/lovable-uploads/1c1c6daf-9024-423c-a8b2-c4997cda43b8.png" 
                     alt="Pacifique CYUBAHIRO"
                     className="w-full h-full object-cover"
                   />

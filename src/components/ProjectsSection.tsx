@@ -25,8 +25,8 @@ const ProjectsSection = () => {
       description: "Beautiful weather application with interactive maps and detailed forecasts",
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
       technologies: ["React", "D3.js", "Weather API", "Tailwind"],
-      liveUrl: "#",
-      githubUrl: "#"
+      liveUrl: "https://pacifiquecyubahiro.github.io/Weather-app/",
+      githubUrl: "https://github.com/pacifiqueCYUBAHIRO/Weather-app?tab=readme-ov-file"
     },
     {
       title: "Portfolio Website",
@@ -82,13 +82,17 @@ const ProjectsSection = () => {
                     variant="outline" 
                     className="flex-1 border-portfolio-primary text-portfolio-primary hover:bg-portfolio-primary hover:text-white"
                   >
-                    Live Demo
+                    <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+        Live Demo
+      </a>
                   </Button>
                   <Button 
                     variant="outline" 
                     className="flex-1"
                   >
-                    View Code
+                    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+        View Code
+      </a>
                   </Button>
                 </div>
               </CardFooter>
