@@ -68,7 +68,7 @@ const Login = () => {
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                placeholder="admin123"
+                placeholder="password..."
                 required
                 className="mt-2"
               />
