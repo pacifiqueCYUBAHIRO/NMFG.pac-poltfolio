@@ -54,7 +54,11 @@ const HeroSection = () => {
               <div className="relative w-80 h-80 rounded-full overflow-hidden border-8 border-portfolio-primary/30 shadow-2xl bg-gradient-to-br from-portfolio-primary/10 to-portfolio-secondary/10 p-2">
                 <div className="w-full h-full rounded-full overflow-hidden border-2 border-white/50">
                   <img 
+<<<<<<< HEAD
                     src="/lovable-uploads/profile_pic.png" 
+=======
+                    src="/lovable-uploads/1f404858-a324-4b22-89a8-86f39b790b68.png" 
+>>>>>>> 049af1623f061f2682f99ba210921c0b88288162
                     alt="Pacifique CYUBAHIRO"
                     className="w-full h-full object-cover"
                   />

@@ -41,13 +41,10 @@ const Header = () => {
     }`}>
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <img 
-              src="/lovable-uploads/2bc336f3-12c1-46e5-ae02-18124e47c4c4.png" 
-              alt="NMFG.PAC"
-              className="h-8 w-auto cursor-pointer"
-              onClick={() => navigate("/")}
-            />
+          <div className="text-2xl font-bold mb-2">
+            <p>NMFG.PAC</p>
+            <p className="text-sm !font-normal">Software Developer</p>
+
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
