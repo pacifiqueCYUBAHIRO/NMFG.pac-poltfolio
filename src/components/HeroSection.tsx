@@ -17,7 +17,7 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Greeting */}
           <div className="animate-slide-up text-center lg:text-left">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
+            <h1 className="text-4xl md:text-4xl lg:text-7xl font-bold mb-6">
               Hi, I'm <span className="text-gradient">Pacifique CYUBAHIRO</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto lg:mx-0">
