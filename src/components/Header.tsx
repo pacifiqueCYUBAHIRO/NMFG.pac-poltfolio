@@ -43,7 +43,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold mb-2">
             <p>NMFG.PAC</p>
-            <p className="text-sm !font-normal">Software Developer</p>
+ 
 
           </div>
           
